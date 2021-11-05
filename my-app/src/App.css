@@ -1,0 +1,296 @@
+:root {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+nav {
+  padding: 60px 30px 0px 30px;
+  flex: var(--sidebar-flex);
+  background-color: #f4f5f9;
+}
+
+nav ul {
+  font-size: var(--fontsize-nav);
+  list-style: none;
+}
+
+nav ul li {
+  margin: 40px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.condiv {
+  padding: 100px;
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);
+}
+
+login {
+  position: absolute;
+  right: 4vw;
+  top: 4vh;
+
+  text-align: right;
+
+  font-size: 20px;
+
+  mix-blend-mode: normal;
+  opacity: 0.85;
+}
+
+login ul {
+  list-style: none;
+}
+
+login ul li a {
+  color: #f4f5f9;
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(
+    97.36% 31.34% at 50% -1.33%,
+    #c370e8 4.54%,
+    #642cc7 22.45%,
+    #0e094f 68.75%,
+    #111138 97.92%
+  );
+}
+
+/* Sign Page */
+back {
+  position: absolute;
+  left: 4vw;
+  bottom: 4vh;
+
+  text-align: left;
+
+  font-size: 20px;
+
+  mix-blend-mode: normal;
+  opacity: 0.85;
+}
+
+back ul {
+  list-style: none;
+}
+
+back ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sign {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  text-align: left;
+}
+
+.signpic {
+  position: absolute;
+  width: 55vw;
+  height: 100vh;
+  right: 0px;
+  top: 0px;
+}
+
+.signtopic {
+  position: absolute;
+  left: 5vw;
+  top: 20px;
+
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 78px;
+  line-height: 162px;
+  text-align: left;
+
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.95;
+}
+
+.welcome {
+  position: absolute;
+  left: 17vw;
+  top: 23vh;
+
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 72.58px;
+  text-align: center;
+
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.81;
+}
+
+.comment1 {
+  position: absolute;
+  left: 15vw;
+  top: 31vh;
+
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36.29px;
+  text-align: left;
+
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.81;
+}
+.comment2 {
+  position: absolute;
+  left: 10vw;
+  top: 35vh;
+
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36.29px;
+  text-align: left;
+
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.81;
+}
+
+.user {
+  position: absolute;
+  left: 11vw;
+  top: 42vh;
+
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 33px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+.boxuser {
+  position: absolute;
+  width: 340px;
+  height: 45px;
+  left: 11vw;
+  top: 46vh;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.pass {
+  position: absolute;
+  left: 11vw;
+  top: 59vh;
+
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 33px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+.boxpass {
+  position: absolute;
+  width: 340px;
+  height: 45px;
+  left: 11vw;
+  top: 63vh;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.signin {
+  position: absolute;
+  left: 21.5vw;
+  top: 76vh;
+
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 33.26px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+.boxsignin {
+  position: absolute;
+  width: 120px;
+  height: 37px;
+  left: 19vw;
+  top: 75.5vh;
+
+  background: #642cc7;
+}
+
+.signup {
+  position: absolute;
+  left: 21.25vw;
+  top: 84vh;
+
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 33.26px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+.widecard {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.widecard:hover {
+  color: #fff;
+  background: #333;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.active {
+  font-weight: bolder;
+}
