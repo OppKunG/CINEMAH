@@ -17,90 +17,13 @@
   min-height: 100vh;
 }
 
-nav {
-  padding: 60px 30px 0px 30px;
-  flex: var(--sidebar-flex);
-  background-color: #f4f5f9;
-}
-
-nav ul {
-  font-size: var(--fontsize-nav);
-  list-style: none;
-}
-
-nav ul li {
-  margin: 40px;
-}
-
-nav ul li a {
-  color: #333;
-  text-decoration: none;
-}
-
 .condiv {
   padding: 100px;
   background-color: #f4f5f9;
   flex: var(--condiv-flex);
 }
 
-login {
-  position: absolute;
-  right: 4vw;
-  top: 4vh;
-
-  text-align: right;
-
-  font-size: 20px;
-
-  mix-blend-mode: normal;
-  opacity: 0.85;
-}
-
-login ul {
-  list-style: none;
-}
-
-login ul li a {
-  color: #f4f5f9;
-  text-decoration: none;
-}
-
-.home {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background: radial-gradient(
-    97.36% 31.34% at 50% -1.33%,
-    #c370e8 4.54%,
-    #642cc7 22.45%,
-    #0e094f 68.75%,
-    #111138 97.92%
-  );
-}
-
 /* Sign Page */
-back {
-  position: absolute;
-  left: 4vw;
-  bottom: 4vh;
-
-  text-align: left;
-
-  font-size: 20px;
-
-  mix-blend-mode: normal;
-  opacity: 0.85;
-}
-
-back ul {
-  list-style: none;
-}
-
-back ul li a {
-  color: #ffffff;
-  text-decoration: none;
-}
 
 .sign {
   display: flex;
@@ -275,22 +198,4 @@ back ul li a {
   text-align: left;
 
   color: #ffffff;
-}
-
-.widecard {
-  display: flex;
-  margin: 30px 0px 30px 0px;
-  transition: 0.3s;
-  border-radius: 10px;
-  padding: 0.5rem;
-}
-
-.widecard:hover {
-  color: #fff;
-  background: #333;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-}
-
-.active {
-  font-weight: bolder;
 }
