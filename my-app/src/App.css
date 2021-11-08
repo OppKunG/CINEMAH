@@ -199,3 +199,220 @@
 
   color: #ffffff;
 }
+
+/* Ticket Page */
+
+.ticket {
+  display: flex;
+  flex-direction: column;
+
+  background: radial-gradient(
+    100% 100% at 48.75% 0%,
+    #c370e8 0%,
+    #642cc7 22.45%,
+    #0e094f 68.75%,
+    #111138 100%
+  );
+}
+
+.tickettopic {
+  position: absolute;
+  left: 41vw;
+  top: 3vh;
+
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 109px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.95;
+}
+
+.hometopic {
+  position: absolute;
+  left: 36vw;
+  top: 14vh;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.movietopic {
+  position: absolute;
+  left: 49vw;
+  top: 14vh;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.historytopic {
+  position: absolute;
+  left: 62vw;
+  top: 14vh;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.ticketpic {
+  position: absolute;
+  width: 460px;
+  height: 575px;
+  left: 33.5vw;
+  top: 22vh;
+}
+
+.bgticket {
+  position: absolute;
+  width: 460px;
+  height: 825px;
+  left: 33.5vw;
+  top: 22vh;
+
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.moviename {
+  position: absolute;
+  left: 37vw;
+  bottom: 31vh;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 33px;
+
+  text-align: center;
+  color: rgba(195, 112, 232, 1);
+}
+
+.seat {
+  position: absolute;
+  left: 34.75vw;
+  bottom: 27vh;
+
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.seatuser {
+  position: absolute;
+  left: 37.75vw;
+  bottom: 27vh;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 33px;
+
+  text-align: center;
+  color: rgba(75, 19, 174, 1);
+}
+
+.seat {
+  position: absolute;
+  left: 34.75vw;
+  bottom: 27vh;
+
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.seatuser {
+  position: absolute;
+  left: 37.75vw;
+  bottom: 27vh;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 33px;
+
+  text-align: center;
+  color: rgba(75, 19, 174, 1);
+}
+
+.date {
+  position: absolute;
+  left: 34.5vw;
+  bottom: 22vh;
+
+  font-family: Rajdhani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.dateuser {
+  position: absolute;
+  left: 37.25vw;
+  bottom: 22vh;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 33px;
+
+  text-align: center;
+  color: rgba(75, 19, 174, 1);
+}
+
+.barcodepic {
+  position: absolute;
+  width: 270px;
+  height: 50px;
+  left: 37vw;
+  bottom: 17vh;
+}
