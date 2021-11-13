@@ -7,6 +7,10 @@ class Ticket extends Component {
         return (
             <div className="condiv ticket">
                 <h1 className="tickettopic">C I N E M A H</h1>
+                <obj className="account"></obj>
+                <h1 className="accountname">K</h1>
+                <h1 className="name">testttt_1</h1>
+                <h1 logout>Sign out</h1>
                 <h2 className="hometopic">HOME</h2>
                 <h2 className="movietopic">MOVIE</h2>
                 <h2 className="historytopic">HISTORY</h2>
