@@ -216,7 +216,7 @@
 }
 
 .tickettopic {
-  position:absolute;
+  position: absolute;
   left: 38vw;
   top: -1vh;
 
@@ -234,20 +234,58 @@
   opacity: 0.95;
 }
 
-.account{
+.accountpic {
   position: absolute;
-width: 54px;
-height: 54px;
-right: 20vw;
-top: -1vh;
-
-background: #28A461;
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  right: 19vw;
+  top: 4vh;
 }
-.accountname{}
-.name{}
-.logout{}
+
+.accountname {
+  position: absolute;
+  right: 20vw;
+  top: 5vh;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.name {
+  position: absolute;
+  right: 13vw;
+  top: 5vh;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.logout {
+  position: absolute;
+  right: 10vw;
+  top: 5vh;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
 
 .hometopic {
   position: absolute;
